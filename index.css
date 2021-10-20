@@ -1,0 +1,395 @@
+.navbar .icon{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 200px;
+    color: red;
+    background-color: blanchedalmond;
+}
+.navbar{
+    position: sticky;
+}
+.navbar .navbar-brand{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    color: red;
+    font-style: oblique;
+    font-weight: 700;
+}
+.navbar-nav{
+    margin-left: 400px;
+}
+
+.navbar-nav .nav-item {
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+    font-weight: 500;  
+}
+section{
+   height: 700px;
+   padding-left: 90px;
+}
+.home{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    background: url(image/back\ lighht.jpg);
+}
+h3{
+    font-size: 50px;
+    font-weight: 500;
+    color: blanchedalmond;
+}
+.home .text{
+    color: blanchedalmond;
+    font-size: 20px;
+}.home .image1{
+    display: flex;
+    width: 460px;
+    height: 500px;
+}
+.orders button{
+    border-radius: 30px;
+    margin-left: 120px;
+    height: 50px;
+    width: 150px;
+    border: solid 2px red;
+    color: whitesmoke;
+    background-color: red;
+}
+.orders button:hover{
+    background-color: whitesmoke;
+    color: red;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 1rem;
+    color: gray;
+}
+.heading span{
+    color: red;
+}
+.speciality .box_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;  
+}
+.speciality .box_container .box{
+    flex: .5 .5 25rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border: .1rem solid rgba(0,0,0,.3);
+    cursor: pointer;
+    border-radius: .5rem;
+}
+.speciality .box_container .box .image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: -100%;
+    left: 0;
+}
+.speciality .box_container .box .content{
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 2rem;
+}
+.speciality .box_container .box .content img{
+    margin: 1 .5rem 0;
+
+}
+.speciality .box_container .box .content h3{
+    font-size: 24px;
+    color: chocolate;
+    margin-top: 10px;
+}
+.speciality .box_container .box .content p{
+    font-size: 15px;
+    color: brown;
+}
+.speciality .box_container .box:hover .image{
+    top: 0;
+}
+.popular .heading{
+    margin-top: 330px;
+}
+.popular .box_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;  
+}
+.popular .box_container .box{
+    flex: .5 .5 25rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border: .1rem solid rgba(0,0,0,.3);
+    cursor: pointer;
+    border-radius: .5rem;
+}
+.popular .box_container .box .image{
+    object-fit: cover;
+    position: absolute;
+    top: -100%;
+    left: 0;
+}
+.popular .box_container .box img{
+    margin: 1 .5rem 0;
+}
+.popular .box_container .box h3{
+    font-size: 24px;
+    color: chocolate;
+    margin-top: 10px;
+    text-align: center;
+}
+.popular .box_container .box .price{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background-color: brown;
+    font-size: 20px;
+    border-radius: .5rem;
+    color: blanchedalmond;
+}
+.image2{
+    height: 250px;
+    width: 470px;
+}
+.stars{
+    border: solid 1px black;
+    width: 150px;
+    margin-left: 150px;
+    padding-left: 20px;
+}
+.popular .box_container .box .btn{
+    border: solid 2px red;
+    margin-left: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.gallery .heading{
+    margin-top: 1370px;
+    color: red;
+}
+.gallery .image3{
+    height: 250px;
+    width: 470px;
+}
+.gallery .box_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;  
+}
+.gallery .box_container .box{
+    height: 15rem;
+    flex: .5 .5 25rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border: .1rem solid rgba(0,0,0,.3);
+    border-radius: .5rem;
+    cursor: pointer;
+}
+.gallery .box_container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+}
+
+.gallery .box_container .box .content{
+    position: absolute;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, .9);
+    padding: 2rem;
+    padding-top: 5rem;
+    text-align:center;
+
+}
+.gallery .box_container .box .content h3{
+    font-size: 24px;
+    color: chocolate;
+}
+.gallery .box_container .box .content p{
+    font-size: 15px;
+    color: brown;
+}
+.gallery .box_container .box:hover .content{
+    top: 0;
+}
+.review .heading{
+    margin-top: -90px;
+    color: red;
+}
+.review .box_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;  
+}
+.review .box_container .box{
+    flex: .5 .5 25rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border: .1rem solid rgba(0,0,0,.3);
+}
+.review .box_container .box h3{
+    font-size: 24px;
+    color: chocolate;
+    margin-top: 10px;
+    text-align: center;
+}
+.review .image4{
+    margin-left: 50px;
+    height: 210px;
+    width: 400px;
+    border-radius: 100%;
+}
+.review .box_container .box .content p{
+    font-size: 15px;
+    color: brown;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.order{
+    background-color: gray;
+}
+.order .heading{
+    margin-top: -160px;
+}
+.order .image5{
+    height: 400px;
+    width: 480px;
+    margin-left: 100px;
+}
+.order .box_container .box{
+    margin-left: 300px;
+    margin-top: -390px;
+}
+.order .box_container .box .name{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 120px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    border: solid 2px red;
+}
+.order .box_container .box .email{
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 120px;
+    padding-bottom: 5px;
+    border: solid 2px red;
+}
+.order .box_container .box .num{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 120px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    border: solid 2px red;
+}
+.order .box_container .box .items{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 120px;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    border: solid 2px red;
+}
+.order .box_container .box .add{
+    padding: 80px;
+    border: solid 2px red;
+}
+.order .box_container .box .btn{
+    margin-top: 20px;
+    margin-left: 350px;
+}
+.btn button{
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border: solid 2px red;
+    color: whitesmoke;
+    background-color: red;
+}
+.btn button:hover{
+    background-color: whitesmoke;
+    color: red;
+}
+footer{
+    height: 150px;
+    background-color: black;
+}
+footer .fb{
+    margin-left: 350px;
+    margin-top: 50px;
+    border: solid 2px red;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    color: whitesmoke;
+    background-color: red;
+}
+footer .twitter{
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border: solid 2px red;
+    border-radius: 30px;
+    color: whitesmoke;
+    background-color: red;
+}
+footer .insta{
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border: solid 2px red;
+    border-radius: 30px;
+    color: whitesmoke;
+    background-color: red;
+}
+footer .linked{
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border: solid 2px red;
+    border-radius: 30px;
+    color: whitesmoke;
+    background-color: red;
+}
+footer .pint{
+    height: 50px;
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border: solid 2px red;
+    border-radius: 30px;
+    color: whitesmoke;
+    background-color: red;
+}
+footer .credit{
+    font-size: 15px;
+    color: white;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+.credit span{
+    color: red;
+}
+
+
+
+
